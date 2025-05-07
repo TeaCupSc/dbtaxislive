@@ -215,7 +215,10 @@ margin: 0;
 
     #heroText p{
         text-shadow: var(--base);
-        filter:invert(0.25);
+        filter:invert(0);
+        background-color: var(--whiteDrop);
+        color:var(--neutral);
+        padding: 0.5em;
     }
 
     #cta{
