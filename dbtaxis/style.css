@@ -209,11 +209,13 @@ margin: 0;
         right:1em;
         top:auto;
         justify-self: end;
+        transform: scale(70%);
+        transform-origin: bottom right;
     }
 
     #heroText p{
         text-shadow: var(--base);
-        filter:invert(0.5);
+        filter:invert(0.25);
     }
 
     #cta{
